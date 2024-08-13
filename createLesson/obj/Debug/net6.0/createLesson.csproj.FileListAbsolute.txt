@@ -1,0 +1,16 @@
+C:\Users\PF420\source\repos\createLesson\createLesson\bin\Debug\net6.0\createLesson.exe
+C:\Users\PF420\source\repos\createLesson\createLesson\bin\Debug\net6.0\createLesson.deps.json
+C:\Users\PF420\source\repos\createLesson\createLesson\bin\Debug\net6.0\createLesson.runtimeconfig.json
+C:\Users\PF420\source\repos\createLesson\createLesson\bin\Debug\net6.0\createLesson.dll
+C:\Users\PF420\source\repos\createLesson\createLesson\bin\Debug\net6.0\createLesson.pdb
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\createLesson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\createLesson.AssemblyInfoInputs.cache
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\createLesson.AssemblyInfo.cs
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\createLesson.csproj.CoreCompileInputs.cache
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\createLesson.dll
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\refint\createLesson.dll
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\createLesson.pdb
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\createLesson.genruntimeconfig.cache
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\ref\createLesson.dll
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\Interop.Microsoft.Office.Interop.Excel.dll
+C:\Users\PF420\source\repos\createLesson\createLesson\obj\Debug\net6.0\createLesson.csproj.ResolveComReference.cache
