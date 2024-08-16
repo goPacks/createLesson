@@ -15,8 +15,6 @@ namespace Sandbox
         public class Step
         {
             public int step { get; set; }
-            public string img { get; set; }
-            public string voice { get; set; }
             public string en { get; set; }
             public string id { get; set; }
 
@@ -77,9 +75,9 @@ namespace Sandbox
 
 
 
-            //JsonConversation();
+            JsonConversation();
 
-            JsonQuiz();
+           // JsonQuiz();
         }
         
         public static void JsonConversation()
@@ -87,7 +85,7 @@ namespace Sandbox
 
             //Create COM Objects. Create a COM object for everything that is referenced
             Excel.Application xlApp = new Excel.Application();
-            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(@"C:\data\inglesGuru\lesson1ver6.xlsx");
+            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(@"C:\data\inglesGuru\lesson1ver12.xlsx");
             Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[1];
             Excel.Range xlRange = xlWorksheet.UsedRange;
 
@@ -132,8 +130,6 @@ namespace Sandbox
                         step.step = cntSteps;
                         step.en = xlRange.Cells[i, 2].Value2.ToString();
                         step.id = xlRange.Cells[i, 3].Value2.ToString();
-                        step.img = xlRange.Cells[i, 6].Value2.ToString();
-                        step.voice = xlRange.Cells[i, 7].Value2.ToString();
                         pg.pages[pg.pages.Count - 1].steps.Add(step);
                     }
                     else
@@ -143,8 +139,6 @@ namespace Sandbox
                         step.step = cntSteps;
                         step.en = xlRange.Cells[i, 4].Value2.ToString();
                         step.id = xlRange.Cells[i, 5].Value2.ToString();
-                        step.img = xlRange.Cells[i, 6].Value2.ToString();
-                        step.voice = xlRange.Cells[i, 7].Value2.ToString();
                         pg.pages[pg.pages.Count - 1].steps.Add(step);
 
                     }
@@ -191,7 +185,7 @@ namespace Sandbox
 
             //Create COM Objects. Create a COM object for everything that is referenced
             Excel.Application xlApp = new Excel.Application();
-            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(@"C:\data\inglesGuru\lesson1ver8.xlsx");
+            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(@"C:\data\inglesGuru\lesson1ver12.xlsx");
             Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[2];
             Excel.Range xlRange = xlWorksheet.UsedRange;
 
